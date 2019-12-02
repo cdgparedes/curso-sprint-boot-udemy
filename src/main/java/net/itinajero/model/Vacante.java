@@ -10,7 +10,7 @@ public class Vacante {
 	private Date fecha;
 	private Double salarios;
 	private Integer destacado;
-	private String imagen="no-image.png";
+	private String imagen="no-image.png";//Se le agrega este valor por defecto
 	
 	public Integer getId() {
 		return id;
